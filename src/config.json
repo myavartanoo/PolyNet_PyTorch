@@ -1,0 +1,65 @@
+{
+    "name": "Shape3Dgen",
+    "n_gpu": 1,
+    "arch": {
+        "type": "Shape3DModel",
+        "args": {
+            "num_classes": 10,
+            "model": "polynet"
+        }
+    },
+    "data_loader": {
+        "type": "Shape3DLoader",
+        "args": {
+            "data_dir": "../data/",
+            "batch_size": 128,
+            "shuffle": true,
+            "num_workers": 8,
+            "task": "train",
+            "dataset": "ModelNet10",
+            "PolyPool": "PTQ"
+        }
+    },
+    "valid_data_loader": {
+        "type": "Shape3DLoader",
+        "args": {
+            "data_dir": "../data/",
+            "batch_size": 128,
+            "shuffle": false,
+            "num_workers": 8,
+            "task": "test",
+            "dataset": "ModelNet10",
+            "PolyPool": "PTQ"
+        }
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args": {
+            "lr": 0.001,
+            "amsgrad": true
+        }
+    },
+    "loss": "total_loss",
+    "loss_weights": {
+        "class": 1.0
+    },
+    "metrics": [
+        "accuracy"
+    ],
+    "lr_scheduler": {
+        "type": "StepLR",
+        "args": {
+            "step_size": 1,
+            "gamma": 0.985
+        }
+    },
+    "trainer": {
+        "epochs": 5000,
+        "save_dir": "../",
+        "save_period": 1,
+        "verbosity": 2,
+        "monitor": "min val_Total_loss",
+        "early_stop": 2000,
+        "tensorboard": true
+    }
+}
