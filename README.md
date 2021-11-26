@@ -20,5 +20,6 @@ This repository contains the official code to reproduce the results from the pap
 
 ### Dataset
 Download the preprocessed ModelNet dataset with PTQ and √3-subdivision from the follwing link and unzip them in the data directroy.
+
 \[[PTQ]()\] \[[√3-subdivision]()\] 
 
