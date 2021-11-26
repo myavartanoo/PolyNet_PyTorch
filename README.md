@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --config config.json -t "direction to sav
 
 
 ## Citation
-If you find our code or paper useful, please consider citing
+If you find our paper, code, or provided data useful, please consider citing
 
 ```
 @article{Yavartanoo2021PolyNetPN,
