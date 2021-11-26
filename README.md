@@ -25,10 +25,11 @@ Download the preprocessed ModelNet dataset with PTQ and √3-subdivision from th
 
 
 ### Train
-In config.json you can set dataset type (ModelNet10 or ModelNet40) and the PolyPool type (PTQ, Sqrt3).
+In ```config.json``` you can set dataset type (ModelNet10 or ModelNet40) and the PolyPool type (PTQ, Sqrt3).
 
 To train PolyNet with the desired dataset and PolyPool, simply run, 
 
+```
 CUDA_VISIBLE_DEVICES=0 python train.py --config config.json -t "direction to save the model"
-
+```
 
