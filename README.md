@@ -10,3 +10,9 @@ This repository contains the official code to reproduce the results from the pap
 <img src="source/PolyNet.png" width="100%"/>  
 </p>
 
+
+### Dependencies
+* Python 3.8.5
+* PyTorch 1.7.1
+* numpy
+* Pillow
