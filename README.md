@@ -16,3 +16,4 @@ This repository contains the official code to reproduce the results from the pap
 * PyTorch 1.7.1
 * numpy
 * Pillow
+* torch_scatter
