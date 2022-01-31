@@ -3,7 +3,7 @@ This repository contains the official code to reproduce the results from the pap
 
 **PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation (3DV 2021)**
 
-\[[project page](https://myavartanoo.github.io/polynet/)\] \[[arXiv](https://arxiv.org/abs/2110.07882)\] \[[ResearchGate](https://www.researchgate.net/publication/355218072_PolyNet_Polynomial_Neural_Network_for_3D_Shape_Recognition_with_PolyShape_Representation)\] 
+\[[project page](https://myavartanoo.github.io/polynet/)\] \[[arXiv](https://arxiv.org/abs/2110.07882)\] \[[ResearchGate](https://www.researchgate.net/publication/355218072_PolyNet_Polynomial_Neural_Network_for_3D_Shape_Recognition_with_PolyShape_Representation)\]  \[[presentation](https://www.youtube.com/watch?v=Pk8gvfGV5N8&list=PLhCEMvtuQ92VkQCsiMKSn5ORcYM3BA1eM)\] 
 
 
 <p align="center">
