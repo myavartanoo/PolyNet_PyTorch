@@ -39,12 +39,12 @@ CUDA_VISIBLE_DEVICES=0 python train.py --config config.json -t "direction to sav
 If you find our paper, code, or provided data useful, please consider citing:
 
 ```
-@article{Yavartanoo2021PolyNetPN,
-  title={PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation},
-  author={Mohsen Yavartanoo and Shih-Hsuan Hung and Reyhaneh Neshatavar and Yue Zhang and Kyoung Mu Lee},
-  journal={ArXiv},
+@INPROCEEDINGS{9665897,
+  author={Yavartanoo, Mohsen and Hung, Shih-Hsuan and Neshatavar, Reyhaneh and Zhang, Yue and Lee, Kyoung Mu},
+  booktitle={2021 International Conference on 3D Vision (3DV)}, 
+  title={PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation}, 
   year={2021},
-  volume={abs/2110.07882}
-}
+  pages={1014-1023},
+  doi={10.1109/3DV53792.2021.00109}}
 ```
 
