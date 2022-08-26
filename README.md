@@ -21,7 +21,7 @@ This repository contains the official code to reproduce the results from the pap
 ### Dataset
 Download the preprocessed ModelNet dataset with PTQ and √3-subdivision from the follwing link and unzip them in the data directroy. The data type is ```.npz```.
 
-\[[PTQ]()\] \[[√3-subdivision]()\] 
+\[[PTQ](https://drive.google.com/drive/folders/15VFhxRTpSfetJqNqssuNWNJhpHOBOUsE?usp=sharing)\] \[[√3-subdivision](https://drive.google.com/drive/folders/1WnwZ0NkSme9s_VceZRjVTpS1QYCJ4yYt?usp=sharing)\] 
 
 
 ### Train
